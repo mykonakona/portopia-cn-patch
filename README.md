@@ -40,7 +40,7 @@
 生成的中文 ROM：`portopia_cn_v1.0.0.nes`
 
 ```text
-c5ae6cf6ee493be126ed4a0800a9d3402f97d6397337ff5decf309c158f02154
+8820b11ffea85dcc356f658ac24ee8a78148ac5d67df1a7ca518b2a56764801f
 ```
 
 以上均为完整文件的 SHA-256。生成结果不一致时，请核对源 ROM、补丁版本及补丁工具的报错信息。
