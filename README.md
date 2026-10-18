@@ -34,7 +34,7 @@
 补丁文件：`portopia_cn_v1.0.0.bps`
 
 ```text
-a3979704542da709f41509400248f52afec65a9d04cc1238387b2a5a1c7bd581
+3454339619f6763abc81277244bae5e86b242e04565fbc29fc7dcf4b7896a814
 ```
 
 生成的中文 ROM：`portopia_cn_v1.0.0.nes`
