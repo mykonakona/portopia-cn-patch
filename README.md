@@ -21,9 +21,9 @@
 ## 应用补丁
 
 1. 备份原版 ROM，并按上文检查文件大小和 SHA-256。
-2. 使用支持 **BPS** 格式的补丁工具, 如[Floating IPS](https://www.romhacking.net/utilities/1040/)，选择 `portopia_cn_v1.0.0.bps`。
+2. 使用支持 **BPS** 格式的补丁工具, 如[Floating IPS](https://www.romhacking.net/utilities/1040/)，选择 `portopia_cn_v1.1.0.bps`。
 3. 将符合校验要求的日文原版 ROM 选为源文件。
-4. 将输出保存为新文件，例如 `portopia_cn_v1.0.0.nes`，保留原版 ROM。
+4. 将输出保存为新文件，例如 `portopia_cn_v1.1.0.nes`，保留原版 ROM。
 5. 检查生成的 ROM：大小应为 **524,304 字节**，SHA-256 应与下文一致。
 6. 用支持 **Mapper 192** 的模拟器打开新 ROM，从新游戏冷启动。
 
@@ -31,16 +31,16 @@
 
 ## 当前版本校验值
 
-补丁文件：`portopia_cn_v1.0.0.bps`
+补丁文件：`portopia_cn_v1.1.0.bps`
 
 ```text
-a3979704542da709f41509400248f52afec65a9d04cc1238387b2a5a1c7bd581
+60759aeed1eb92a00a5af30c2cf93f913bbce1f3377c6079957cb119b379173e
 ```
 
-生成的中文 ROM：`portopia_cn_v1.0.0.nes`
+生成的中文 ROM：`portopia_cn_v1.1.0.nes`
 
 ```text
-c5ae6cf6ee493be126ed4a0800a9d3402f97d6397337ff5decf309c158f02154
+f25b7a9ee73cd58f6fde8a53f656c12ffc5d85a2e2f90fc7c6d1ecbea77f55e48
 ```
 
 以上均为完整文件的 SHA-256。生成结果不一致时，请核对源 ROM、补丁版本及补丁工具的报错信息。
