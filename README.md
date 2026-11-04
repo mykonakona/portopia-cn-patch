@@ -1,6 +1,6 @@
 # 港口镇连续杀人事件 · 简体中文汉化补丁
 
-当前版本：**v1.1.0**（2026-10-20）
+当前版本：**v1.1.1**（2026-11-04）
 
 ## 日文原版 ROM
 
@@ -19,8 +19,8 @@
 
 |源文件|补丁|补丁 SHA-256|
 |---|---|---|
-|NES 2.0|`portopia_cn_v1.1.0.bps`|`60759aeed1eb92a00a5af30c2cf93f913bbce1f3377c6079957cb119b379173e`|
-|iNES 1（No-Intro）|`portopia_cn_v1.1.0_ines1.bps`|`66d9d52d64bc820039a2fd38448f8683d6d942f32622ad350c7e7304d4c71ada`|
+|NES 2.0|`portopia_cn_v1.1.1.bps`|`9365a6ea820c0ab56f571d1f86ab0731689bf28af10bc2c38d2e0a57ffb76b7a`|
+|iNES 1（No-Intro）|`portopia_cn_v1.1.1_ines1.bps`|`13ea7dd9bfebceb8460bf00d0dd10eb1901467f62bbef559d9106805ed426245`|
 
 两份补丁应用后生成同一个中文 ROM；不能把源文件与补丁混用。
 文件名中的 `_ines1` 表示源文件格式，不是另一个版本。
@@ -37,27 +37,28 @@
 
 ## 当前版本校验值
 
-补丁文件：`portopia_cn_v1.1.0.bps`、`portopia_cn_v1.1.0_ines1.bps`
+补丁文件：`portopia_cn_v1.1.1.bps`、`portopia_cn_v1.1.1_ines1.bps`
 
 ```text
-60759aeed1eb92a00a5af30c2cf93f913bbce1f3377c6079957cb119b379173e  portopia_cn_v1.1.0.bps
-66d9d52d64bc820039a2fd38448f8683d6d942f32622ad350c7e7304d4c71ada  portopia_cn_v1.1.0_ines1.bps
+9365a6ea820c0ab56f571d1f86ab0731689bf28af10bc2c38d2e0a57ffb76b7a  portopia_cn_v1.1.1.bps
+13ea7dd9bfebceb8460bf00d0dd10eb1901467f62bbef559d9106805ed426245  portopia_cn_v1.1.1_ines1.bps
 ```
 
-生成的中文 ROM：`portopia_cn_v1.1.0.nes`
+生成的中文 ROM：`portopia_cn_v1.1.1.nes`
 
 - 大小：524,304 字节
-- CRC32：`6F1AFB4C`
+- CRC32：`6B73C247`
 - SHA-256：
 
 ```text
-f25b7a9e73cd58f6fde8a53f656c12ffc5d85a2e2f90fc7c6d1ecbea77f55e48
+8f874ced797483c4e2063ea6d1e51894917b7f922541ddeaa17f767810b5d510
 ```
 
 以上均为完整文件的 SHA-256。生成结果不一致时，请核对源 ROM、补丁版本及补丁工具的报错信息。
 
 ## 版本历史
 
+- **v1.1.1** — 修复京都与客厅查人后职业、经历、不在场菜单回退日文的问题
 - **v1.1.0** — 修复部分菜单显示问题，优化多行菜单显示，部分杂项修复
 - **v1.0.0** — 首次发布
 
